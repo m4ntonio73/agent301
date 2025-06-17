@@ -11,7 +11,7 @@ import shutil
 from dotenv import load_dotenv
 
 st.set_page_config(
-    page_title="🤖 Agente de Análise de Dados",
+    page_title="Agente de Análise de Dados",
     page_icon="🤖"
 )
 
