@@ -10,6 +10,11 @@ import tempfile
 import shutil
 from dotenv import load_dotenv
 
+st.set_page_config(
+    page_title="🤖 Agente de Análise de Dados",
+    page_icon="🤖"  # Favicon com emoji de robô
+)
+
 # Carregar variáveis do arquivo .env
 load_dotenv()
 
