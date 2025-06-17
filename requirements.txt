@@ -1,0 +1,7 @@
+langchain_experimental
+langchain-community
+langchain-google-genai
+tabulate
+pandas
+streamlit
+python-dotenv
