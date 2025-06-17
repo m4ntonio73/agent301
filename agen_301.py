@@ -34,7 +34,7 @@ st.markdown("---")
 # Seletor do tipo de arquivo
 file_type = st.selectbox(
     "📁 Tipo de arquivo:",
-    ["CSV único", "ZIP com múltiplos CSVs (Notas Fiscais)"]
+    ["CSV único", "ZIP com múltiplos CSVs"]
 )
 
 if file_type == "CSV único":
@@ -52,7 +52,7 @@ if file_type == "CSV único":
         st.write("📊 Total de registros:", len(df))
 
 else:  # ZIP com múltiplos CSVs
-    uploaded_file = st.file_uploader("📦 Carregue o arquivo ZIP (202401_NFs.zip)", type="zip")
+    uploaded_file = st.file_uploader("📦 Carregue o arquivo ZIP", type="zip")
     
     if uploaded_file is not None:
         # Criar diretório de trabalho permanente
