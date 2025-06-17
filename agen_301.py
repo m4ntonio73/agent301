@@ -316,14 +316,14 @@ Resposta Final: [resposta em português informando quantos registros foram anali
                 # Enhancear a query com validações automáticas
                 enhanced_query = enhance_query_for_full_dataset(query, df_info)
                 
-                with st.spinner("🤖 Analisando os dados..."):
+                with st.spinner(" Analisando os dados..."):
                     response = agent.run(enhanced_query)
 
                 st.write("💡 Resposta:")
                 st.write(response)
                 
                 # Adicionar verificação pós-análise
-                st.info(f"ℹ️ Dataset analisado: {df_info['total_rows']} registros, {df_info['total_cols']} colunas")
+                #st.info(f"ℹ️ Dataset analisado: {df_info['total_rows']} registros, {df_info['total_cols']} colunas")
             else:
                 # Resposta para conversas casuais
                 casual_responses = {
