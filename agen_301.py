@@ -388,7 +388,7 @@ footer = """
 }
 </style>
 <div class="custom-footer">
-    Agent_301 v2.0 - Suporte a ZIP e Mesclagem
+    Agent_301 v2.0
 </div>
 """
 
