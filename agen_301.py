@@ -12,7 +12,7 @@ from dotenv import load_dotenv
 
 st.set_page_config(
     page_title="🤖 Agente de Análise de Dados",
-    page_icon="🤖"  # Favicon com emoji de robô
+    page_icon="🤖"
 )
 
 # Carregar variáveis do arquivo .env
