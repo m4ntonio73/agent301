@@ -3,6 +3,7 @@
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://agent301.streamlit.app)
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+![GitHub release](https://img.shields.io/github/v/release/usuario/repo)
 
 Uma aplicação web inteligente para análise de dados CSV e Notas Fiscais usando IA generativa com Google Gemini e LangChain.
 
